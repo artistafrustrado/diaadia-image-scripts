@@ -1,0 +1,13 @@
+Source: gimp-portal
+Section: x11 
+Priority: extra
+Maintainer: Fernando Michelotti <artista.frustrado@gmail.com>
+Build-Depends: debhelper (>= 5)
+Standards-Version: 3.7.2
+
+Package: gimp-portal
+Architecture: all 
+Depends: ${shlibs:Depends}, ${misc:Depends}, gimp, gimp-python, python-cairo, python-gtk2
+Description: Resources for comic book coloring and publishing 
+ Resources for comic book coloring and publishing
+
