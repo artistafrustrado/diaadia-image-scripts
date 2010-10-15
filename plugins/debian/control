@@ -7,7 +7,7 @@ Standards-Version: 3.7.2
 
 Package: gimp-portal
 Architecture: all 
-Depends: ${shlibs:Depends}, ${misc:Depends}, gimp, gimp-python, python-cairo, python-gtk2
+Depends: ${shlibs:Depends}, ${misc:Depends}, gimp, gimp-python, python-cairo, python-gtk2, python-rsvg
 Description: Resources for comic book coloring and publishing 
  Resources for comic book coloring and publishing
 

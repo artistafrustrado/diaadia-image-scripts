@@ -201,7 +201,11 @@ def redimensionar_lote(img, draw, textoTitulo, textoFonte, caminhoOrigem, caminh
 
 	# itera sobre os nomes de arquivo no diretorio
 	for file in files:
-		img = abrir_imagem(file)	
+		print "FILE " + file
+		filepath = caminhoOrigem + '/' + file
+		print "FILEPATH " + filepath
+	
+		img = abrir_imagem(filepath)	
 		if img is not None:
 			# substitui a extensao do arquivo para jpg para que o nome do arquivo final (saida) esteja correto
 			pattern = '.(%s|%s)' % (formats, formats.upper())
