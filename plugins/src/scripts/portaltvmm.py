@@ -13,7 +13,7 @@ telaAltura  = 480
 
 comentarioImagem = "dia a dia educacao"
 images = []
-logFile = "%s/Desktop/portal_plug-in.log" % os.environ['HOME']
+logFile = "%s/portal_plug-in.log" % os.environ['HOME']
 
 # define lista de formatos aceitos
 formats = 'jpg|jpeg|jpe|gif|tiff|tif|tga|eps|ps|psd|png|bmp|ico|xcf|xpm|pcx|svg'
